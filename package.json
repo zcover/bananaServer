@@ -1,23 +1,25 @@
 {
-  "name": "BananaServer",
+  "name": "basic-server",
   "version": "1.0.0",
-  "description": "Basic Server",
+  "description": "basic server",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zcover/basic-server.git"
+    "url": "git+https://github.com/zcover/bananaServer.git"
   },
-  "author": "Zerek Cover",
-  "license": "ISC",
+  "author": "Zerek",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zcover/basic-server/issues"
+    "url": "https://github.com/zcover/bananaServer/issues"
   },
-  "homepage": "https://github.com/zcover/basic-server#readme",
+  "homepage": "https://github.com/zcover/bananaServer#readme",
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1"
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
   }
 }
